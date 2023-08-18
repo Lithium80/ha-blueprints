@@ -47,7 +47,7 @@ blueprint:
         the names of sensors being low on battery.
       selector:
         action: {}
-  source_url: https://www.modbag.ch/ha/low-battery-detection-notification.yaml
+  source_url: https://github.com/Lithium80/ha-blueprints/blob/main/low-battery-detection-notification.yaml
 variables:
   day: !input 'day'
   threshold: !input 'threshold'
