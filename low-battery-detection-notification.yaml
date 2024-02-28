@@ -25,7 +25,7 @@ blueprint:
     day:
       name: Weekday to test on
       description: 'Test is run at configured time either everyday (0) or on a given
-        weekday (1: Monday ... 7: Sunday)'
+        weekday (1: Monday ... 7: Sunday)'.
       default: 0
       selector:
         number:
